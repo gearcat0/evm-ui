@@ -1,0 +1,17 @@
+{
+  "pkg": "evm-ui",
+  "globalName": "EvmUi",
+  "projectId": "37674cd1-ab58-4a95-8286-0360300ea5d2",
+  "shape": "package",
+  "buildCmd": "npm run build",
+  "cssEntry": "dist/styles.css",
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "Modal": { "cardMode": "single", "viewport": "600x380", "primaryStory": "Confirm" },
+    "Table": { "cardMode": "column" },
+    "StatusBar": { "cardMode": "column" },
+    "Field": { "cardMode": "column" },
+    "Input": { "cardMode": "column" },
+    "Textarea": { "cardMode": "column" }
+  }
+}
