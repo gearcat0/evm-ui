@@ -54,3 +54,6 @@ export { Table } from './components/Table'
 export type { TableProps, TableColumn } from './components/Table'
 
 export { CHAIN_COLORS, CHAIN_NAMES } from './lib/chains'
+
+export { tokens } from './lib/tokens'
+export type { Tokens } from './lib/tokens'
