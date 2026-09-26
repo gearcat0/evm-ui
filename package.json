@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Shared design system for EVM tooling apps (evmaddressbook, tx-builder, and future related apps)",
   "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": ">=11.18.0",
+      "onFail": "error"
+    }
+  },
   "type": "module",
   "module": "./dist/index.es.js",
   "main": "./dist/index.es.js",
@@ -32,12 +39,12 @@
   "devDependencies": {
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.28.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "typescript": "^5.6.3"
   },
   "allowScripts": {
-    "esbuild@0.24.2": true
+    "esbuild": false
   }
 }
